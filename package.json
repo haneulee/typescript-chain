@@ -4,8 +4,7 @@
   "description": "typescript blockchain",
   "main": "index.js",
   "scripts": {
-    "start": "node index.ts",
-    "prestart": "tsc"
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
   },
   "repository": {
     "type": "git",
@@ -22,6 +21,7 @@
   },
   "homepage": "https://github.com/haneulee/typescript-chain#readme",
   "dependencies": {
+    "tsc-watch": "^3.0.1",
     "typescript": "^3.5.3"
   }
 }
