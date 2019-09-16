@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/haneulee/typescript-chain#readme",
   "dependencies": {
+    "crypto-js": "^3.1.9-1",
     "tsc-watch": "^3.0.1",
     "typescript": "^3.5.3"
   }
